@@ -1,0 +1,12 @@
+1. Setting DataBase
+    Use VillageBook_FINAL\src\main\webapp\WEB-INF\lib\villagebook.sql 
+    And Create All table and sequence, then you can insert all data Record.
+2. Setting File Upload Path
+    In BookController.java, Set your project upload path of \img\book\.
+    In my Case, I used VillageBook_FINAL in C:\Users\dek06\OneDrive\문서\workspace_java\. 
+    Also, I put book image folder, /img/book/ in project VillageBook_FINAL. So you can change at your will.
+    But, if you change Upload File path in Insert Book of library mood , you must change that in Update Book too.
+3. If you insert Book Image in /img/book/, you want to check whether you right image file or not.
+   Then, in Eclipse Package Explorer, Refresh /img/book/ folder!
+
+Then Enjoy your Coding.
